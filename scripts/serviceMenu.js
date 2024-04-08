@@ -194,7 +194,7 @@ function hideBaseElements() {
 }
 
 function runCustomChat() {
-  console.log("👋 CustomChat Running...");
+  console.log("👋🗨 CustomChat Running...");
   hideBaseElements();
   buildChatMenu();
 }
