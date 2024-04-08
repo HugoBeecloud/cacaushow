@@ -109,7 +109,7 @@ function buildChatMenu() {
   var buttonsToCreate = [
     {
       id: "bchat",
-      text: "Atendimento Comercial",
+      text: "Atendimento ao Cliente",
       preConditionSelector: HELP_BUTTON_ENABLED,
       action: function () {
         var bchatButton = document.querySelector("#bchat");
@@ -141,7 +141,7 @@ function buildChatMenu() {
     },
     {
       id: "cchat",
-      text: "Atendimento ao Cliente",
+      text: "Atendimento Comercial",
       preConditionSelector: CHAT_VOLL,
       action: function () {
         var linkComponent = document.querySelector(CHAT_VOLL);
