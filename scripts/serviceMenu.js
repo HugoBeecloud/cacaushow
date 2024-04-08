@@ -119,7 +119,7 @@ function buildChatMenu() {
           bchatButton.innerHTML = "O atendimento já está aberto!";
 
           setTimeout(function () {
-            bchatButton.innerHTML = "Atendimento Comercial";
+            bchatButton.innerHTML = "Atendimento ao Cliente";
           }, 1000);
 
           return;
@@ -128,7 +128,7 @@ function buildChatMenu() {
         if (bchatButton) bchatButton.innerHTML = "Aguarde...";
 
         setTimeout(function () {
-          bchatButton.innerHTML = "Atendimento Comercial";
+          bchatButton.innerHTML = "Atendimento ao Cliente";
         }, 2000);
 
         var helpButtonEnabled = document.querySelector(HELP_BUTTON_ENABLED);
