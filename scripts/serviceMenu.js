@@ -8,7 +8,6 @@ function waitForElementAndRun(selector, callback, noStop) {
   var observerInterval = setInterval(function () {
     var element = document.querySelector(selector);
     if (element) {
-      console.log(">> chatComponent:" + selector + "loaded...");
       callback();
       if (!noStop) clearInterval(observerInterval);
     }
